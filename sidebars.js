@@ -28,6 +28,298 @@ const sidebars = {
     },
   ],
    */
+
+ module.exports = {
+  docs: [
+    {
+      type: 'category',
+      label: 'Strategy and Architecture',
+      items: [
+        {
+          type: 'category',
+          label: 'Information Strategy',
+          items: [
+            'data-analytics',
+            'data-engineering',
+            'data-management',
+            'data-modelling-and-design',
+            'data-visualisation',
+            'information-and-data-compliance',
+            'information-assurance',
+            'information-management',
+            'information-security',
+            'knowledge-management',
+            'records-management',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Advice and Guidance',
+          items: [
+            'consultancy',
+            'specialist-advice',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Business Strategy and Planning',
+          items: [
+            'brand-management',
+            'business-administration',
+            'business-intelligence',
+            'business-modelling',
+            'business-process-improvement',
+            'business-situation-analysis',
+            'enterprise-and-business-architecture',
+            'feasibility-assessment',
+            'financial-analysis',
+            'governance',
+            'investment-appraisal',
+            'market-research',
+            'strategic-planning',
+            'sustainability',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Technical Strategy and Planning',
+          items: [
+            'emerging-technology-monitoring',
+            'innovation-management',
+            'methods-and-tools',
+            'solution-architecture',
+            'systems-and-software-lifecycle-engineering',
+            'technology-service-management',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Change and Transformation',
+      items: [
+        {
+          type: 'category',
+          label: 'Business Change Implementation',
+          items: [
+            'business-process-improvement',
+            'organisation-design-and-implementation',
+            'organisational-capability-development',
+            'organisational-change-enablement',
+            'organisational-change-management',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Business Change Management',
+          items: [
+            'change-control',
+            'configuration-management',
+            'release-management',
+            'requirements-definition-and-management',
+            'resourcing',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Business Change Strategy',
+          items: [
+            'benefits-management',
+            'portfolio-management',
+            'programme-management',
+            'project-management',
+            'risk-management',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Development and Implementation',
+      items: [
+        {
+          type: 'category',
+          label: 'Systems Development',
+          items: [
+            'animation-development',
+            'application-support',
+            'artificial-intelligence-ai-and-data-ethics',
+            'hardware-design',
+            'high-performance-computing',
+            'machine-learning',
+            'numerical-analysis',
+            'programming-software-development',
+            'real-time-embedded-systems-development',
+            'scientific-modelling',
+            'software-configuration',
+            'software-design',
+            'systems-design',
+            'systems-integration-and-build',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'User Experience',
+          items: [
+            'accessibility-and-inclusion',
+            'content-design-and-authoring',
+            'content-publishing',
+            'graphic-design',
+            'user-experience-analysis',
+            'user-experience-design',
+            'user-experience-evaluation',
+            'user-research',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Installation and Integration',
+          items: [
+            'database-design',
+            'infrastructure-design',
+            'network-design',
+            'systems-installation-and-removal',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Delivery and Operation',
+      items: [
+        {
+          type: 'category',
+          label: 'Service Design',
+          items: [
+            'availability-management',
+            'capacity-management',
+            'service-catalogue-management',
+            'service-level-management',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Service Transition',
+          items: [
+            'change-control',
+            'deployment',
+            'release-management',
+            'service-acceptance',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Service Operation',
+          items: [
+            'application-support',
+            'customer-service-support',
+            'database-administration',
+            'incident-management',
+            'infrastructure-operations',
+            'network-support',
+            'problem-management',
+            'storage-management',
+            'system-software-administration',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Security Administration',
+          items: [
+            'identity-and-access-management',
+            'security-operations',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Skills and Quality',
+      items: [
+        {
+          type: 'category',
+          label: 'Learning and Development',
+          items: [
+            'employee-experience',
+            'learning-and-development-management',
+            'learning-delivery',
+            'learning-design-and-development',
+            'teaching',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Professional Development',
+          items: [
+            'competency-assessment',
+            'job-analysis-and-design',
+            'organisational-facilitation',
+            'performance-management',
+            'professional-development',
+            'workforce-planning',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Quality Management',
+          items: [
+            'audit',
+            'certification-scheme-operation',
+            'measurement',
+            'process-testing',
+            'quality-assurance',
+            'quality-management',
+            'safety-assessment',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Relationships and Engagement',
+      items: [
+        {
+          type: 'category',
+          label: 'Stakeholder Management',
+          items: [
+            'contract-management',
+            'customer-engagement-and-loyalty',
+            'customer-experience',
+            'sales-support',
+            'selling',
+            'stakeholder-relationship-management',
+            'supplier-management',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Sales and Marketing',
+          items: [
+            'bid-proposal-management',
+            'brand-management',
+            'digital-marketing',
+            'marketing-campaign-management',
+            'marketing-management',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Security and Privacy',
+          items: [
+            'cybercrime-investigation',
+            'digital-forensics',
+            'offensive-cyber-operations',
+            'penetration-testing',
+            'threat-intelligence',
+            'vulnerability-assessment',
+            'vulnerability-research',
+          ],
+        },
+      ],
+    },
+  ],
+};
+
 };
 
 module.exports = sidebars;
